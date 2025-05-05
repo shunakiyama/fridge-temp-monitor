@@ -1,25 +1,17 @@
-/*********
-  Rui Santos
-  Complete project details at https://RandomNerdTutorials.com  
-*********/
-
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-#define SCREEN_WIDTH 128 // OLED display width, in pixels
-#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+#define SCREEN_WIDTH 128 
+#define SCREEN_HEIGHT 64 
 
-#define ONE_WIRE_BUS 16 // Data wire is plugged TO GPIO 4
+#define ONE_WIRE_BUS 16
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-// Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
 OneWire oneWire(ONE_WIRE_BUS);
-
-// Pass our oneWire reference to Dallas Temperature. 
 DallasTemperature sensors(&oneWire);
 
 // Number of temperature devices found
