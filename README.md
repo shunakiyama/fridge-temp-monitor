@@ -13,15 +13,22 @@ posiadają.
 ## Pliki
 ```
 |--code
+    |--esphome
     |--v3_multiple_sensors
 |--models
     |--solidworks
     |--3d_printing
+|--pcb
+    |--fridge_temp_design
+        |--[WSZYSTKIE PLIKI]
 ```
-Folder ```code``` posiada wszystkie pliki związane z oprogramowaniem. Aktualna wersja jest w folderze ```v3_multiple_sensors```.
+Folder ```code``` posiada wszystkie pliki związane z oprogramowaniem. Aktualna wersja, używająca ESPHome, jest w folderze ```esphome```. Wersja C++ (.ino) jest w
+```v3_multiple_sensors```.
 
 Folder ```models``` posiada wszystkie pliki związane z obudową. Folder ```solidworks``` posiada wszytskie pliki z programu SolidWorks, otwórz te pliki 
 w Soliwroks aby edytować ten design. Folder ```3d_printing``` posiada modele wyeksportowane do ```.stl```, gotowe do druku 3d.
+
+Folder ```pcb/fridge_temp_design``` posiada wszystkie pliki dotyczace PCB, chwilowo pliki Gerber nie są dostępne.
 
 ---
 # 🇬🇧 Fridge temperature monitoring device
@@ -37,12 +44,18 @@ The owners of good fridges also can use this device as it allows the monitoring 
 ## Files
 ```
 |--code
+    |--esphome
     |--v3_multiple_sensors
 |--models
     |--solidworks
     |--3d_printing
+|--pcb
+    |--fridge_temp_design
+        |--[ALL FILES]
 ```
-Folder ```code``` has all files related to software. Current version is in ```v3_multiple_sensors```.
+Folder ```code``` has all files related to software. Current version, using ESPHome, is in ```esphome```. C++ version (.ino) is in ```v3_multiple_sensors```.
 
 Folder ```models``` has all the files related to the case. Folder ```solidworks``` has all the SolidWorks files, use these files to edit the design.
 Folder ```3d_printing``` has all the models exported to ```.stl```, ready to be 3d printed.
+
+Folder ```pcb/fridge_temp_design``` has all files related to the PCB design, Gerber files are not available yet. 
