@@ -30,6 +30,8 @@ w Soliwroks aby edytować ten design. Folder ```3d_printing``` posiada modele wy
 
 Folder ```pcb/fridge_temp_design``` posiada wszystkie pliki dotyczace PCB, chwilowo pliki Gerber nie są dostępne.
 
+## Plany
+
 ---
 # 🇬🇧 Fridge temperature monitoring device
 This ESP32 based device allows for temperature monitoring in many zones at once in your fridge. You can read the temperature locally or on a HomeAssistant's
