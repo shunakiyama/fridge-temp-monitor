@@ -14,15 +14,15 @@
     (start_pass_no 1)
     (layer_rule F.Cu
       (active on)
-      (preferred_direction vertical)
+      (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.6)
+      (against_preferred_direction_trace_costs 3.5)
     )
     (layer_rule B.Cu
       (active on)
-      (preferred_direction horizontal)
+      (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.4)
+      (against_preferred_direction_trace_costs 3.5)
     )
   )
   (rule
